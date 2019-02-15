@@ -97,7 +97,7 @@ h1, h2, h3, h4 {
     text-align: center
 }
 
-.modal {
+/* .modal {
     position: absolute;
     margin: 0 auto;
     top: 500px;
@@ -108,11 +108,11 @@ h1, h2, h3, h4 {
     overflow: auto;
     overflow-y: auto;
     background-color: rgba(0,0,0,0);
-}
+} */
 
-.modal-title {
+/* .modal-title {
     margin: 0 auto;
-}
+} */
 
 #pokemonImage {
     margin: 0 auto;
