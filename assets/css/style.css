@@ -36,3 +36,27 @@ body {
     z-index: 4;
     visibility: hidden;
 }
+
+#victory {
+    margin: 0 auto;
+    width: 627px;
+    height: 390px;
+}
+
+#defeatScreen {
+    margin: 0 auto;
+    position: absolute;
+    width: 627px;
+    height: 390px;
+    top: 50px;
+    left: 275px;
+    z-index: 5;
+    visibility: hidden;
+}
+
+#defeat {
+    margin: 0 auto;
+    width: 627px;
+    height: 390px;
+   
+}
