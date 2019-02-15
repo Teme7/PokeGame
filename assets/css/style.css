@@ -128,3 +128,331 @@ h1, h2, h3, h4 {
     display: block;
     cursor: pointer;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+    #gameConsole {
+        position: absolute;
+        left: 120px;
+        width: 75%;
+        height: 720px;
+        top: 10px;
+        z-index: 1; 
+    }
+
+    #map {
+        margin: 0 auto;
+       
+        position: absolute;
+        width: 485px;
+        height: 285px;
+        top: 40px;
+        left: 242px;
+        z-index: 2;
+    }
+
+    #battleScreen {
+        margin: 0 auto;
+        background: white;
+        position: absolute;
+        width: 485px;
+        height: 285px;
+        top: 40px;
+        left: 242px;    
+        z-index: 3;
+        visibility: hidden;
+    }
+    
+    #victoryScreen {
+        margin: 0 auto;
+        position: absolute;
+        width: 485px;
+        height: 285px;
+        top: 40px;
+        left: 242px;    
+        z-index: 4;
+        visibility: hidden;
+    }
+
+    #pokemonImage {
+        margin: 0 auto;
+        max-width: 30%;
+        height: 30%;
+        display: block;
+    }
+    
+    #pokeBall {
+        margin: 0 auto;
+        width: 10%;
+        height: 17%;
+        display: block;
+        cursor: pointer;
+    }
+    
+    #victory {
+        margin: 0 auto;
+        width: 485px;
+        height: 285px;
+    }
+    
+    #defeatScreen {
+        margin: 0 auto;
+        position: absolute;
+        width: 485px;
+        height: 285px;
+        top: 40px;
+        left: 242px;
+        z-index: 5;
+        visibility: hidden;
+    }
+    
+    #defeat {
+        margin: 0 auto;
+        width: 485px;
+        height: 285px;
+       
+    }
+    
+    .bottomScreen {
+        position: absolute;
+        margin: 0 auto;
+        background: white;
+        top: 410px;
+        width: 43%;
+        height: 300px;
+        left: 280px;
+        z-index: 6;
+        
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    #gameConsole {
+        position: absolute;
+        left: 120px;
+        width: 70%;
+        height: 545px;
+        top: 10px;
+        z-index: 1; 
+    }
+
+    #map {
+        margin: 0 auto;
+       
+        position: absolute;
+        width: 350px;
+        height: 215px;
+        top: 33px;
+        left: 208px;
+        z-index: 2;
+    }
+
+    #battleScreen {
+        margin: 0 auto;
+        background: white;
+        position: absolute;
+        width: 350px;
+        height: 215px;
+        top: 33px;
+        left: 208px;    
+        z-index: 3;
+        visibility: hidden;
+    }
+    
+    #victoryScreen {
+        margin: 0 auto;
+        position: absolute;
+        width: 350px;
+        height: 215px;
+        top: 33px;
+        left: 208px;    
+        z-index: 4;
+        visibility: hidden;
+    }
+
+    #pokemonImage {
+        margin: 0 auto;
+        max-width: 30%;
+        height: 30%;
+        display: block;
+    }
+    
+    #pokeBall {
+        margin: 0 auto;
+        width: 10%;
+        height: 17%;
+        display: block;
+        cursor: pointer;
+    }
+    
+    #victory {
+        margin: 0 auto;
+        width: 350px;
+        height: 215px;
+    }
+    
+    #defeatScreen {
+        margin: 0 auto;
+        position: absolute;
+        width: 350px;
+        height: 215px;
+        top: 33px;
+        left: 208px;
+        z-index: 5;
+        visibility: hidden;
+    }
+    
+    #defeat {
+        margin: 0 auto;
+        width: 350px;
+        height: 215px;
+       
+    }
+    
+    .bottomScreen {
+        position: absolute;
+        margin: 0 auto;
+        background: white;
+        top: 315px;
+        width: 41%;
+        height: 220px;
+        left: 230px;
+        z-index: 6;
+        
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    th{
+
+        font-size: 10px;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    #gameConsole {
+        position: absolute;
+        left: 120px;
+        width: 62%;
+        height: 420px;
+        top: 10px;
+        z-index: 1; 
+    }
+
+    #map {
+        margin: 0 auto;
+       
+        position: absolute;
+        width: 248px;
+        height: 168px;
+        top: 28px;
+        left: 183px;
+        z-index: 2;
+    }
+
+    #battleScreen {
+        margin: 0 auto;
+        background: white;
+        position: absolute;
+        width: 248px;
+        height: 168px;
+        top: 28px;
+        left: 183px;    
+        z-index: 3;
+        visibility: hidden;
+    }
+    
+    #victoryScreen {
+        margin: 0 auto;
+        position: absolute;
+        width: 248px;
+        height: 168px;
+        top: 28px;
+        left: 183px;    
+        z-index: 4;
+        visibility: hidden;
+    }
+
+    #pokemonImage {
+        margin: 0 auto;
+        max-width: 30%;
+        height: 30%;
+        display: block;
+    }
+    
+    #pokeBall {
+        margin: 0 auto;
+        width: 10%;
+        height: 15%;
+        display: block;
+        cursor: pointer;
+    }
+    
+    #victory {
+        margin: 0 auto;
+        width: 248px;
+        height: 168px;
+    }
+    
+    #defeatScreen {
+        margin: 0 auto;
+        position: absolute;
+        width: 248px;
+        height: 168px;
+        top: 28px;
+        left: 183px;
+        z-index: 5;
+        visibility: hidden;
+    }
+    
+    #defeat {
+        margin: 0 auto;
+        width: 248px;
+        height: 168px;
+       
+    }
+    
+    .bottomScreen {
+        position: absolute;
+        margin: 0 auto;
+        background: white;
+        top: 245px;
+        width: 34%;
+        height: 168px;
+        left: 203px;
+        z-index: 6;
+        
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+
+    h3 {
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    th{
+
+        font-size: 8px;
+    }
+    
+  }
