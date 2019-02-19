@@ -83,11 +83,6 @@ body {
     z-index: 2;
 }
 
-
-/* #playerStat {
-    
-} */
-
 .screen {
     width: 100%;
     height: 100%;
@@ -96,23 +91,6 @@ body {
 h1, h2, h3, h4 {
     text-align: center
 }
-
-/* .modal {
-    position: absolute;
-    margin: 0 auto;
-    top: 500px;
-    right: 0;
-    bottom: 0px;
-    left: 0;
-    z-index: 10040;
-    overflow: auto;
-    overflow-y: auto;
-    background-color: rgba(0,0,0,0);
-} */
-
-/* .modal-title {
-    margin: 0 auto;
-} */
 
 #pokemonImage {
     margin: 0 auto;
@@ -143,7 +121,6 @@ h1, h2, h3, h4 {
 
     #map {
         margin: 0 auto;
-       
         position: absolute;
         width: 485px;
         height: 285px;
@@ -308,7 +285,6 @@ h1, h2, h3, h4 {
         margin: 0 auto;
         width: 350px;
         height: 215px;
-       
     }
     
     .bottomScreen {
@@ -319,8 +295,7 @@ h1, h2, h3, h4 {
         width: 41%;
         height: 220px;
         left: 230px;
-        z-index: 6;
-        
+        z-index: 6;        
     }
 
     h2 {
@@ -335,8 +310,7 @@ h1, h2, h3, h4 {
         font-size: 10px;
     }
 
-    th{
-
+    th {
         font-size: 10px;
     }
     
@@ -433,8 +407,7 @@ h1, h2, h3, h4 {
         width: 34%;
         height: 168px;
         left: 203px;
-        z-index: 6;
-        
+        z-index: 6;        
     }
 
     h2 {
@@ -451,7 +424,6 @@ h1, h2, h3, h4 {
     }
 
     th{
-
         font-size: 8px;
     }
     
