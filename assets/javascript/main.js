@@ -104,4 +104,40 @@ function initMap(){
             marker.setVisible(false);
         }
      });
-        
+     
+     google.maps.event.addListener(marker, 'click', (function(marker) {
+        return function() {
+        /*Battle Screen Pop Up Open Code*/
+        $("#pokemonName").html("<h2>"+ name +"</h2>");
+        $("#pokemonImage").attr("src",pokemon[num].image);
+        $("#pokeBall").attr("src","assets/images/pokeball.png");
+        $("#battleScreen").css('visibility', 'visible');
+        $("#pokeBall").click(function(){
+            var winLose = Math.floor((Math.random() * 2));
+            console.log(winLose);
+            if(winLose){
+                $("#battleScreen").css('visibility', 'hidden');
+                $("#victoryScreen").css('visibility', 'visible');
+                var pokeImg = pokemon[num].image;
+                var pokeName = pokemon[num].name;
+                $("#playerStat").append(
+                "<tr><td> pokeImg </td><td> pokeName </td><td> Caught </td><td> </td> 1 </tr>");
+                setTimeout(function(){ 
+                $("#victoryScreen").css('visibility', 'hidden'); }, 2500);
+                marker.setMap(null);
+            }
+            else {
+                $("#battleScreen").css('visibility', 'hidden');
+                $("#defeatScreen").css('visibility', 'visible');
+                $("#playerStat").append(
+                "<tr><td> pokeImg </td><td> pokeName </td><td> Encountered </td><td> </td></tr>");
+                setTimeout(function(){ 
+                $("#defeatScreen").css('visibility', 'hidden'); }, 2500);
+                marker.setMap(null);
+            }
+            });
+         
+        }
+})(marker));
+
+
