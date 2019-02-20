@@ -140,4 +140,31 @@ function initMap(){
         }
 })(marker));
 
+        // Check for customicon
+        if(pokemon[num].image){
+            // Set icon image
+            marker.setIcon(pokemon[num].image);
+        };
+                 
+         // Check content
+        if(pokemon[num].name){
+            var infoWindow = new google.maps.InfoWindow({
+                content:pokemon[num].name
+            });                      
+        }
+             
+             marker.addListener('click', function(){
+                 infoWindow.open(map, marker);
+                 modal.style.display = "block";         
+             });
+             
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+         }
+      
+     });  
+     };
+
+ 
 
