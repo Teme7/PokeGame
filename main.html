@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon No</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+
+<body>
+<!-- background -->
+    <div class="container">
+    <!-- Jumbotron -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="topScreen">
+                    <div id="map"></div>
+                    <div id="battleScreen">
+                        <h3>Catch That Pokemon</h3>
+                        <div id="pokemonName"></div>
+                        <img id="pokemonImage">
+                        <img id="pokeBall">
+                        <h4>Click The Pokeball To Catch The Pokemon</h4>
+                    </div>
+                    <div id="victoryScreen">
+                        <img id="victory" src='assets/images/Victory.gif'>
+                    </div>
+                    <div id="defeatScreen">
+                            <img id="defeat" src='assets/images/Defeat.gif'>
+                    </div>
+                    <div id='gameConsole'>
+                        <img class="screen" src='assets/images/DS.png'>
+                    </div>
+                </div>
+                <div class="bottomScreen">
+                    <br>
+                    <h3>Pokemon Tracker</h3>
+                
+                    <div class="card card-primary">
+                        <div class="card-body">
+                            <table class="table table-hover" id='playerStat'>
+                            <thead>
+                                <tr>
+                                <!-- <th># of Games</th> -->
+                                <th>Character</th>
+                                <th>Pokemon Name</th>
+                                <th>Status</th>
+                                <th># of Times Caught</th>  
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                            </table>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body"></div>
+                    <img id="pokemon-image">
+                    <img id="pokeball">
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>            
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJUKPyjYdT5PeergaloSSxAuldyHAepmA&callback=initMap"></script>
+<script src="assets/javascript/main.js"></script>
+</body>
+
+</html>
