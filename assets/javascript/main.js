@@ -1,3 +1,13 @@
+// Initialize Firebase
+var config = {
+    apiKey: "AIzaSyB_NHSIRiqIbYVZv1AhXffyNDJ3I1SSSag",
+    authDomain: "backrowcoders-1529774918046.firebaseapp.com",
+    databaseURL: "https://backrowcoders-1529774918046.firebaseio.com",
+    projectId: "backrowcoders-1529774918046",
+    storageBucket: "backrowcoders-1529774918046.appspot.com",
+    messagingSenderId: "29421056562"
+};
+
 function initMap(){
     // Map options
     var options = {
