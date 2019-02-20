@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Bulbasaur",
+        "image": "assets/images/pokemon_small/Bulbasaur.png"
+    },
+    {
+        "name": "Ivysaur",
+        "image": "assets/images/pokemon_small/Ivysaur.png"
+    },
+    {
+        "name": "Venusaur",
+        "image": "assets/images/pokemon_small/Venusaur.png"
+    },
+    {
+        "name": "Charmander",
+        "image": "assets/images/pokemon_small/Charmander.png"
+    },
+    {
+        "name": "Charmeleon",
+        "image": "assets/images/pokemon_small/Charmeleon.png"
+    },
+    {
+        "name": "Charizard",
+        "image": "assets/images/pokemon_small/Charizard.png"
+    },
+    {
+        "name": "Squirtle",
+        "image": "assets/images/pokemon_small/Squirtle.png"
+    },
+    {
+        "name": "Wartortle",
+        "image": "assets/images/pokemon_small/Wartortle.png"
+    },
+    {
+        "name": "Blastoise",
+        "image": "assets/images/pokemon_small/Blastoise.png"
+    },
+    {
+        "name": "Caterpie",
+        "image": "assets/images/pokemon_small/Caterpie.png"
+    },
+    {
+        "name": "Metapod",
+        "image": "assets/images/pokemon_small/Metapod.png"
+    },
+    {
+        "name": "Butterfree",
+        "image": "assets/images/pokemon_small/Butterfree.png"
+    },
+    {
+        "name": "Weedle",
+        "image": "assets/images/pokemon_small/Weedle.png"
+    },
+    {
+        "name": "Kakuna",
+        "image": "assets/images/pokemon_small/Kakuna.png"
+    },
+    {
+        "name": "Beedrill",
+        "image": "assets/images/pokemon_small/Beedrill.png"
+    },
+    {
+        "name": "Pidgey",
+        "image": "assets/images/pokemon_small/Pidgey.png"
+    },
+    {
+        "name": "Pidgeotto",
+        "image": "assets/images/pokemon_small/Pidgeotto.png"
+    },
+    {
+        "name": "Pidgeot",
+        "image": "assets/images/pokemon_small/Pidgeot.png"
+    },
+    {
+        "name": "Rattata",
+        "image": "assets/images/pokemon_small/Rattata.png"
+    },
+    {
+        "name": "Raticate",
+        "image": "assets/images/pokemon_small/Raticate.png"
+    },
+    {
+        "name": "Spearow",
+        "image": "assets/images/pokemon_small/Spearow.png"
+    },
+    {
+        "name": "Fearow",
+        "image": "assets/images/pokemon_small/Fearow.png"
+    },
+    {
+        "name": "Ekans",
+        "image": "assets/images/pokemon_small/Ekans.png"
+    },
+    {
+        "name": "Arbok",
+        "image": "assets/images/pokemon_small/Arbok.png"
+    },
+    {
+        "name": "Pikachu",
+        "image": "assets/images/pokemon_small/Pikachu.png"
+    },
+    {
+        "name": "Raichu",
+        "image": "assets/images/pokemon_small/Raichu.png"
+    },
+    {
+        "name": "Sandshrew",
+        "image": "assets/images/pokemon_small/Sandshrew.png"
+    },
+    {
+        "name": "Sandslash",
+        "image": "assets/images/pokemon_small/Sandslash.png"
+    },
+    {
+        "name": "Nidoran_Female",
+        "image": "assets/images/pokemon_small/Nidoran_Female.png"
+    },
+    {
+        "name": "Nidorina",
+        "image": "assets/images/pokemon_small/Nidorina.png"
+    },
+    {
+        "name": "Nidoqueen",
+        "image": "assets/images/pokemon_small/Nidoqueen.png"
+    },
+    {
+        "name": "Nidoran_Male",
+        "image": "assets/images/pokemon_small/Nidoran_Male.png"
+    },
+    {
+        "name": "Nidorino",
+        "image": "assets/images/pokemon_small/Nidorino.png"
+    },
+    {
+        "name": "Nidoking",
+        "image": "assets/images/pokemon_small/Nidoking.png"
+    },
+    {
+        "name": "Clefairy",
+        "image": "assets/images/pokemon_small/Clefairy.png"
+    }
+]
